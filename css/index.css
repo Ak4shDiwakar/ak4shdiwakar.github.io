@@ -1,0 +1,43 @@
+
+h1{
+    color: rgba(255, 255, 255, 0.945);
+    text-align: center;
+   
+   }
+  nav{
+      color:white;
+      text-align: center;
+      border-bottom: 1px solid chartreuse;
+  }
+  li.allk{
+      color: coral;
+      
+  }
+
+   div{
+    border-bottom: 1px solid rgb(0, 225, 255);
+       color:rgb(87, 87, 87);
+       text-align: center;
+       
+   }
+   img.ddll
+   {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(248, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    width:21%;
+   }
+   img.ccl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:22%;
+   }
+
+   body {
+      background-color: rgb(0, 0, 0);
+   }
