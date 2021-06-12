@@ -2,6 +2,7 @@
 h1{
     color: rgba(255, 255, 255, 0.945);
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(17, 248, 0, 0.527), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
    
    }
   nav{
@@ -28,7 +29,7 @@ h1{
     margin-right: auto;
     border-radius: 8px;
     background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(248, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(29, 248, 0, 0.63), 0 6px 20px 0 rgba(43, 255, 0, 0.692);
     width:21%;
    }
    img.ccl{
@@ -37,7 +38,10 @@ h1{
     margin-right: auto;
     width:22%;
    }
+h5{
+        box-shadow: 0 4px 8px 0 rgb(21, 253, 0), 0 6px 20px 0 rgba(115, 255, 0, 0.486);
 
+}
    body {
       background-color: rgb(0, 0, 0);
    }
