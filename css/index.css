@@ -1,7 +1,8 @@
 
 h1{
-    color: rgba(255, 255, 255, 0.945);
+    color: #fffffff1;
     text-align: center;
+    text-shadow: violet ;
     box-shadow: 0 4px 8px 0 rgba(17, 248, 0, 0.527), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
    
    }
