@@ -1,7 +1,7 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
 body{
-    background-image: url(../img/HTMLa.png);
+    background-image: url("../img/HTMLa.png");
     background-repeat: no-repeat;
     width: auto;
     background-size: cover;
