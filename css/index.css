@@ -2,6 +2,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body{
   background-image: url("../img/HTML.svg");
@@ -72,10 +73,6 @@ body{
 }
 /*new*/
 /* Include padding and border in total box size*/
-* {
-  box-sizing: border-box;
-}
-
 /* Create two equal columns that float next to each other */
 .colo{
   color: black;
