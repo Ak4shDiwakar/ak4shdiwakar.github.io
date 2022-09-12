@@ -6,50 +6,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akash_diwakar</title>
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/nav.css" />
+    <!-- <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/nav.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/device.css"/> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-    $("p").click(function(){
-      alert("You Clicked....");
-    });
-  });
-</script>
+    <!-- <script>
+      $(document).ready(function () {
+        $("p").click(function () {
+          alert("You Clicked....");
+        });
+      });
+    </script> -->
     <script src="./css/my.js"></script>
   </head>
   <body>
-    <nav>
-      <div class="navlogo">
-        <img src="./img/logo2.svg" alt="Logo Image" />
-      </div>
-      <div class="hamburger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="./pages/learn.html">Education</a></li>
-        <li><a href="./pages/osint.html">Skils</a></li>
-        <li><a href="./pages/about.html">Portfolio</a></li>
-        <li><a href="./pages/crime.html">suppoprt-me</a></li>
-      </ul>
-    </nav>
-    <section class="main">
-<div class="1main">
-      <a href="./Akash_diwakar.pdf" class="downloadbt"
-        ><i class="fa fa-cloud"></i> Download CV</a
-      >
-      <div class="word"></div>
-      <br />
-      <div class="sinfo">
-        <p class="data">
-          Hello, I’m <span class="coldata">Akash Diwakar</span> ,Cyber security
-          Enthusiast <br />and Bug Hunter Based in Kanpur.
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>Notification</h2>
+        <p>
+            If You Are Open this website in Mobile Phone Try to Open In PC or Laptop. This website under construction for Mobile Phone.
         </p>
-      </div>
-</div>
+    </div>
+    <!--Script-->
+    <script type="text/javascript">
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        2000 
+    )
+});
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+    <!---script-->
+    <section class="main">
+      <div class="bground">
+        <img src="./img/mylogo.png" class="logo" />
+        <a href="./Akash_diwakar.pdf" target="_blank" class="downloadbt"
+          ><i class="fa fa-cloud"></i> Download CV</a
+        >
+        <br>
+        <span class="word"></span>
+        <span class="sinfo">
+          <p class="data">
+            Hello, I’m <span class="coldata">Akash Diwakar</span> ,Cyber
+            security Enthusiast <br />and Bug Hunter Based in Kanpur.
+          </p>
+        </span>
+        </div>
     </section>
+
+<!--Section 2: About me-->
+<div class="about">
+        <div class="column-2">
+            <h1>About me</h1>
+            <p>Hi! I'm Akash Diwakar, A Cyber Security Enthusiast and Bug Hunter.</p>
+            <p>I also work as a Intern with <a class="colo" href="https://maksecurities.co.in/" color="black">MAK SECURITIES</a> As A Cyber Crime investigator and consultent.
+            I also done a online Internship withe VIEH Group and Build Keylogger detector using Python for linux. </p>    
+            <p>I also done a online Internship withe gurgaon police and learn about different kind's of Cyber Crime and how to tackle cyber crimes. </p>
+          </div>
+        <div class="column-2 large-profile">
+        </div>
+    </div>
+
+<!--Section 4: Employment-->
+<div class="Employment">  
+<div class="section-break"> </div>
+<h2 class="section-heading">Experience</h2>
+
+<div class="column-1">
+  <h2>Employment</h2>
+  <table class="table-style"> 
+    <tr>
+      <td>Cyber Security Intern /Keylogger Detector</td>
+      <td>VIEH Group</td>
+      <td>Mar 2022-Apr 2022</td>
+   </tr>
+   <tr>
+    <td>Cyber Security Intern</td>
+    <td>MAK SECURITIES </td>
+    <td>Jul 2021- Mar 2022</td>
+ </tr>
+    <tr>
+      <td>Summer Intern</td>
+      <td>Gurugram Police</td>
+      <td>Jun 2021-Jul 2021</td>
+   </tr>
+  </table>
+ </div>
+
+
+<!--Section 5: Education and Skills-->
+
+<div class="column-2a">
+<h2>Education</h2>
+  <table class="table-style">
+    <tr>
+      <td>Chhatrapati Shahu Ji Maharaj University</td>
+      <td>2020-2023</td>
+    </tr>
+    <tr>
+      <td>B.N.S.D Inter College (12th)</td>
+      <td>2019-2020</td>
+    </tr>
+    <tr>
+      <td>High School (10th)</td>
+      <td>2018-2019</td>
+    </tr>
+    <tr>
+      <td>Information Security Diploma (By CERTSTORE)</td>
+      <td>2016-2017</td>
+    </tr>
+  </table>
+</div>
+  <div class="column-2a">
+     <h2>Skills</h2>
+    <table class="table-style">
+      <tr>
+        <td>OSINT</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>NMAP</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Burp Suite</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>WAPT</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td> VAPT</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+        <td> HTML</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td> CSS</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!--Section 3: Projects-->
+
+<h2 class="section-heading">Projects</h2>
+<div class="column-4 project-1">
+  <a href="https://github.com/Ak4shDiwakar/Rakshak_Keylogger_Detector" target="_blank" class="openbt">OPEN</a>
+</div>
+
+<div class="column-4 project-2">
+  <a href="http://ak4shdiwakar.github.io/" target="_blank" class="openbt">OPEN</a>
+</div>
+
+<div class="column-4 project-3">
+  <button onclick="myFunction()" class="openbt">OPEN</button>
+  <script>
+    function myFunction() {
+      alert("This Project Under Construction.");
+    }
+    </script>
+</div>
+<!-- <div class="column-4 project-4">
+  <a href="#" target="_blank" class="openbt">OPEN</a>
+</div> -->
+
+<!--Section 3: Certificates-->
+
+<h2 class="section-heading2">Certificates</h2>
+<div class="column-5 Certificates-1">
+    <a href="./img/cert1.jpeg" target="_blank" class="openbt">OPEN</a>
+</div>
+
+<div class="column-5 Certificates-2">
+    <a href="./img/cer2.jpeg" target="_blank" class="openbt">OPEN</a>
+</div>
+
+<div class="column-5 Certificates-3">
+    <a href="./img/Cert3.png" target="_blank" class="openbt">OPEN</a>
+</div>
+<div class="column-5 Certificates-4">
+    <a href="https://olympus1.mygreatlearning.com/course_certificate/AGJOLRPA" target="_blank" class="openbt">OPEN</a>
+</div>
+
+<!--Section 3: Certificates-->
+
   </body>
 </html>
