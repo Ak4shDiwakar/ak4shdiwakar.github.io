@@ -1,0 +1,272 @@
+@media only screen and (min-device-width: 1366px)and (max-width: 1440px) {
+    .downloadbt {
+        margin-left: 40%;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+
+    .word {
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+
+    .column-1 {
+        width: 90%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 70px;
+        padding-bottom: 70px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 75px;
+        background-color: white;
+    }
+
+    .slk {
+        padding: 40px;
+        padding-left: 20px;
+        padding-right: 160px;
+        padding-bottom: 60px;
+        height: 450px;
+        margin: 30px;
+        margin-right: 160px;
+        margin-bottom: 40px;
+        margin-left: 85px;
+        background-color: white;
+        position: relative;
+        width: auto;
+    }
+
+    .column-4 {
+        float: left;
+        width: 21%;
+        padding: 10px;
+        margin-bottom: 100px;
+        margin-left: 120px;
+        height: 250px;
+    }
+
+    Color and Images for Project Containers 
+      
+            .project-1 {
+                background: url('../img/protoo.png');
+                background-color: #209BFF;
+                background-size: cover;
+              }
+              
+              .project-2 {
+              
+                background:url('../img/mylogo.png');
+                background-position-y:-35px;
+                background-size: cover;
+              }
+              
+              .project-3 {
+                background:url('../img/logo.svg');
+                background-size:250px;
+                background-position-x: 25px;
+                background-repeat: no-repeat;
+                background-color:hsla(0, 0%, 100%, 0.623);
+              }
+              .openbt {
+                margin-top: 250px;
+                margin-left: 85px;
+                  background-color:#47e1e6;
+                  border-radius:34px;
+                  border:1px solid #24c8d4;
+                  display:inline-block;
+                  cursor:pointer;
+                  color:#241924;
+                  font-family:Trebuchet MS;
+                  font-size:18px;
+                  font-weight:bold;
+                  font-style:italic;
+                  padding:12px 23px;
+                  text-decoration:none;
+                  text-shadow:-1px 0px 11px #305ed1;
+              }
+        /*col 5*/
+        .column-5 {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            margin-left: 45px;
+            margin-bottom: 80px;
+            height: 250px;
+        }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1600px) {
+    .skl {
+        padding: 40px;
+        padding-left: 70px;
+        padding-right: 160px;
+        padding-bottom: 60px;
+        height: 450px;
+        margin: 30px;
+        margin-right: 160px;
+        margin-bottom: 40px;
+        margin-left: 85px;
+        background-color: white;
+        position: relative;
+        width: auto;
+    }
+
+    .column-4 {
+        float: left;
+        width: 21%;
+        padding: 10px;
+        margin-bottom: 100px;
+        margin-left: 140px;
+        height: 250px;
+    }
+
+    /* Color and Images for Project Containers  */
+
+    .project-1 {
+        background: url('../img/protoo.png');
+        background-color: #209BFF;
+        background-size: cover;
+    }
+
+    .project-2 {
+
+        background: url('../img/mylogo.png');
+        background-position-y: -55px;
+        background-size: cover;
+    }
+
+    .project-3 {
+        background: url('../img/logo.svg');
+        background-size: 250px;
+        background-position-x: 40px;
+        background-repeat: no-repeat;
+        background-color: hsla(0, 0%, 100%, 0.623);
+    }
+
+    .openbt {
+        margin-top: 250px;
+        margin-left: 100px;
+        background-color: #47e1e6;
+        border-radius: 34px;
+        border: 1px solid #24c8d4;
+        display: inline-block;
+        cursor: pointer;
+        color: #241924;
+        font-family: Trebuchet MS;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 12px 23px;
+        text-decoration: none;
+        text-shadow: -1px 0px 11px #305ed1;
+    }
+
+    /*col 5*/
+    .column-5 {
+        float: left;
+        width: 21%;
+        padding: 10px;
+        margin-left: 45px;
+        margin-bottom: 80px;
+        height: 250px;
+    }
+}
+@media only screen and (width: 1280px) {
+    .downloadbt {
+        margin-left: 40%;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .word {
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+
+    .column-1 {
+        width: 90%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 70px;
+        padding-bottom: 70px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 75px;
+        background-color: white;
+    }
+
+    .slk {
+        padding: 40px;
+        padding-left: 20px;
+        padding-right: 160px;
+        padding-bottom: 60px;
+        height: 450px;
+        margin: 30px;
+        margin-right: 160px;
+        margin-bottom: 40px;
+        margin-left: 19px;
+        background-color: white;
+        position: relative;
+        width: auto;
+    }
+
+    .column-4 {
+        float: left;
+        width: 21%;
+        padding: 10px;
+        margin-bottom: 100px;
+        margin-left: 120px;
+        height: 250px;
+    }
+
+    /* Color and Images for Project Containers  */
+      
+            .project-1 {
+                background: url('../img/protoo.png');
+                background-color: #209BFF;
+                background-size: cover;
+              }
+              
+              .project-2 {
+              
+                background:url('../img/mylogo.png');
+                background-position-y:-30px;
+                background-size: cover;
+              }
+              
+              .project-3 {
+                background:url('../img/logo.svg');
+                background-size:250px;
+                background-position-x: 15px;
+                background-repeat: no-repeat;
+                background-color:hsla(0, 0%, 100%, 0.623);
+              }
+              .openbt {
+                margin-top: 250px;
+                margin-left: 85px;
+                  background-color:#47e1e6;
+                  border-radius:34px;
+                  border:1px solid #24c8d4;
+                  display:inline-block;
+                  cursor:pointer;
+                  color:#241924;
+                  font-family:Trebuchet MS;
+                  font-size:18px;
+                  font-weight:bold;
+                  font-style:italic;
+                  padding:12px 23px;
+                  text-decoration:none;
+                  text-shadow:-1px 0px 11px #305ed1;
+              }
+        /*col 5*/
+        .column-5 {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            margin-left: 45px;
+            margin-bottom: 80px;
+            height: 250px;
+        }
+} 
